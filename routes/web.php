@@ -13,10 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-
-});
-
-
-Route::get('/plan',[\App\Http\Controllers\DeveloperAssignmentController::class,'index']);
+Route::get('/',[\App\Http\Controllers\DeveloperAssignmentController::class,'index']);
 
